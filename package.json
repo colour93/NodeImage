@@ -1,0 +1,28 @@
+{
+  "name": "nodeimage",
+  "version": "1.0.0",
+  "description": "通过nodejs及其插件实现对图片的简单操作",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colour93/nodeimage.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "colour93 (玖叁 colour_93@furry.top)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colour93/nodeimage/issues"
+  },
+  "homepage": "https://github.com/colour93/nodeimage#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "images": "^3.2.3",
+    "sharp": "^0.27.0",
+    "text-to-svg": "^3.1.5"
+  }
+}
